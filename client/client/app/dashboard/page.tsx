@@ -252,7 +252,7 @@ export default function Dashboard() {
   ) => {
     try {
       const res = await fetch(
-        "https://astric-ai-builder-server.onrender.com",
+        "https://astric-ai-builder-server.onrender.com/api/generate",
         {
           method: "POST",
           headers: {
