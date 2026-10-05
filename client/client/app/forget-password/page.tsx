@@ -25,7 +25,7 @@ export default function ForgotPasswordPage() {
           email,
           {
             redirectTo:
-              "http://localhost:3000/reset-password",
+              "https://astric-ai-builder-dycr.vercel.app/reset-password",
           }
         );
 
